@@ -1,6 +1,6 @@
-# CadastramentoLoja
+﻿# CadastramentoLoja
 
-API REST para cadastro e gestão de produtos de loja, com upload de imagens integrado ao Cloudinary e suporte a dois bancos de dados (MongoDB e MySQL).
+API REST para cadastro e gestÃ£o de produtos de loja, com upload de imagens integrado ao Cloudinary e suporte a dois bancos de dados (MongoDB e MySQL).
 
 ## Stack
 
@@ -11,19 +11,19 @@ API REST para cadastro e gestão de produtos de loja, com upload de imagens inte
 
 ## Funcionalidades
 
-- Cadastro, consulta e gestão de produtos
+- Cadastro, consulta e gestÃ£o de produtos
 - Upload de imagens de produto direto para o Cloudinary
 - CORS habilitado para consumo por um frontend separado
 
 ## Como rodar localmente
 
 ```bash
-git clone https://github.com/EduardoAlkimim/CadastramentoLoja.git
+git clone https://github.com/EduardoAlkimim/cadastramento-loja.git
 cd CadastramentoLoja
 npm install
 ```
 
-Crie um arquivo `.env` (não versionado) com suas credenciais de banco e Cloudinary, depois:
+Crie um arquivo `.env` (nÃ£o versionado) com suas credenciais de banco e Cloudinary, depois:
 
 ```bash
 npm start
